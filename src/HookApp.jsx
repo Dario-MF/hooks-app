@@ -11,7 +11,8 @@ import React from 'react';
 //import RealExampleRef from './components/04-useRef/RealExampleRef';
 //import LayoutEffect from './components/05-useLayoutEffect/LayautEffect';
 //import Memorize from './components/06-memos/Memorize';
-import Padre from './components/07-tarea-memo/Padre';
+//import Padre from './components/07-tarea-memo/Padre';
+import TodoApp from './components/08-useReducer/TodoApp';
 
 
 const HookApp = () => {
@@ -27,8 +28,9 @@ const HookApp = () => {
             <LayoutEffect />
             <Memorize />
             <MemoHook />
-            <CallbackHook />*/}
-            <Padre />
+            <CallbackHook />
+            <Padre />*/}
+            <TodoApp /> 
             
         </div>
     );
