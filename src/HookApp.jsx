@@ -1,4 +1,5 @@
 import React from 'react';
+import MainApp from './components/09-useContext/MainApp';
 //import CallbackHook from './components/06-memos/CallbackHook';
 //import MemoHook from './components/06-memos/MemoHook';
 //import FormWithCustomHook from './components/02-useEffect/FormWithCustomHook';
@@ -12,13 +13,13 @@ import React from 'react';
 //import LayoutEffect from './components/05-useLayoutEffect/LayautEffect';
 //import Memorize from './components/06-memos/Memorize';
 //import Padre from './components/07-tarea-memo/Padre';
-import TodoApp from './components/08-useReducer/TodoApp';
+//import TodoApp from './components/08-useReducer/TodoApp';
 
 
 const HookApp = () => {
     return (
         <div>
-          {/* <CounterApp />
+            {/* <CounterApp />
             <CounterWithCustomHook /> 
             <SimpleForm />
             <FormWithCustomHook /> 
@@ -29,9 +30,10 @@ const HookApp = () => {
             <Memorize />
             <MemoHook />
             <CallbackHook />
-            <Padre />*/}
-            <TodoApp /> 
-            
+            <Padre />
+            <TodoApp /> */}
+            <MainApp />
+
         </div>
     );
 };
